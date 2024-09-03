@@ -1,0 +1,11 @@
+﻿<Application x:Class="TechnicalExercise.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TechnicalExercise"
+             StartupUri="Views/MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="DataGridRow">
+            <Setter Property="Background" Value="{Binding Path=AlternateRowColor}"/>
+        </Style>
+    </Application.Resources>
+</Application>
